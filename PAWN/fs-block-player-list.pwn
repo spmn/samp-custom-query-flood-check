@@ -2,9 +2,9 @@
 
 public OnQueryFloodCheck(queryType, binaryAddress)
 {
-	if(queryType == 'x')
+	if(queryType == 'c' || queryType == 'd')
 	{
-		return 1; // don't allow RCON queries to get processed
+		return 1; // don't send back the player list
 	}
 	return 0;
 }
