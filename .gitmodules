@@ -1,0 +1,6 @@
+[submodule "lib/samp-plugin-sdk"]
+	path = lib/samp-plugin-sdk
+	url = https://github.com/maddinat0r/samp-plugin-sdk.git
+[submodule "lib/urmem"]
+	path = lib/urmem
+	url = https://github.com/urShadow/urmem.git
