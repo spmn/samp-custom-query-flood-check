@@ -8,8 +8,8 @@
 GPP = g++
 GCC = gcc
 OUTDIR = "./bin/Release/"
-OUTFILE = "custom-query-flood.so"
-COMPILE_FLAGS = -m32 -fPIC -c -O3 -w -std=c++11 -DLINUX -DHAVE_STDINT_H -I ./lib/
+OUTFILE = "samp-custom-query-flood.so"
+COMPILE_FLAGS = -m32 -fPIC -c -O3 -w -std=c++11 -fpermissive -DLINUX -DHAVE_STDINT_H -I ./lib/
 CQFC = $(COMPILE_FLAGS)
 
 all: CQFC

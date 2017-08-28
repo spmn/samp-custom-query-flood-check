@@ -58,7 +58,7 @@ bool CheckForQueryFlood(char query, uint32_t binaryAddress)
 	return 0;
 }
 
-template<char query> uint32_t __cdecl CheckForQueryFlood(uint32_t binaryAddress)
+template<char query> uint32_t /*__cdecl*/ CheckForQueryFlood(uint32_t binaryAddress)
 {
 	return CheckForQueryFlood(query, binaryAddress);
 }
