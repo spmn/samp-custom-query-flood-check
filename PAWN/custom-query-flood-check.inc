@@ -4,7 +4,7 @@
 // 
 // https://github.com/spmn/samp-custom-query-flood-check
 
-forward OnCheckForQueryFlood(queryType, binaryAddress); 
+forward OnQueryFloodCheck(queryType, binaryAddress); 
 /*
  * Info:
  *  - called when a query is received

@@ -1,11 +1,11 @@
 #include <a_samp>                    // for GetTickCount()
-#include <custom-query-flood-check>  // for OnCheckForQueryFlood()
+#include <custom-query-flood-check>  // for OnQueryFloodCheck()
 
 /*
  * PAWN equivalent of the original function from SA-MP 0.3.7 server as dissasembled by kurta999 in his YSF fork: 
  * https://github.com/kurta999/YSF/blob/YSF_/src/Hooks.cpp#L390
  */
-public OnCheckForQueryFlood(queryType, binaryAddress)
+public OnQueryFloodCheck(queryType, binaryAddress)
 {
 	static dwLastQueryTick = 0;
 	static lastBinAddr = 0;

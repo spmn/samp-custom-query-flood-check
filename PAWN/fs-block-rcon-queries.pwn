@@ -1,6 +1,6 @@
 #include <custom-query-flood-check>  // for OnCheckForQueryFlood()
 
-public OnCheckForQueryFlood(queryType, binaryAddress)
+public OnQueryFloodCheck(queryType, binaryAddress)
 {
 	if(queryType == 'x')
 	{

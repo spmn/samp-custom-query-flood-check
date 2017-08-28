@@ -6,7 +6,7 @@ Write custom protections against query flood
 - For better performance, implement the protection directly into plugin source code to avoid AMX overhead.
 ## Callback
 ```pawn
-forward OnCheckForQueryFlood(queryType, binaryAddress); 
+forward OnQueryFloodCheck(queryType, binaryAddress); 
 /*
  * Info:
  *  - called when a query is received
