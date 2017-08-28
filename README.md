@@ -2,7 +2,7 @@
 Write custom protections against query flood
 ## WARNING
 - Installing this plugin will disable the built-in query flood check, so you must your own protection!
-- Use [this filterscript](PAWN/fs-original-check.pwn) to reimplement the default query flood check.
+- Use [this filterscript](PAWN/fs-original-check.pwn) to reimplement the default query flood check. (not recommended - it is susceptible to query flood attack)
 - For better performance, implement the protection directly into plugin source code to avoid AMX overhead.
 ## Callback
 ```pawn
